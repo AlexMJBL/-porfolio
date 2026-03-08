@@ -3,7 +3,7 @@ import ProjectCard from "./project-card"
 const projects = [
     {
         name: "The Movie Library",
-        demoLink: "https://demo.com",
+        demoLink: "https://themovielibrarymjbl.netlify.app/",
         codeLink: "https://github.com/AlexMJBL/Movie-Library",
         description: "Movie search engine",
         screenshotLink: "https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?_gl=1*121s8dw*_ga*NTcxNjgxMjI5LjE3NzI5OTMzOTY.*_ga_8JE65Q40S6*czE3NzI5OTMzOTUkbzEkZzEkdDE3NzI5OTM0NzYkajM5JGwwJGgw"

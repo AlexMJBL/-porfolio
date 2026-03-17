@@ -1,6 +1,7 @@
 import ProjectCard from "./project-card"
 import movieDb from "../../asset/images/moviedb.png"
 import appForm from  "../../asset/images/app-form.png"
+import weatherGraph from "../../asset/images/weather__graph.png"
 
 const projects = [
     {
@@ -12,10 +13,10 @@ const projects = [
     },
     {
         name: "Weather Forecast",
-        demoLink: "https://demo.com",
-        codeLink: "https://github.com",
+        demoLink: "https://weather-graph-mjbl.netlify.app/",
+        codeLink: "https://github.com/AlexMJBL/weather-graph",
         description: "Weather consulation chart",
-        screenshotLink: appForm
+        screenshotLink: weatherGraph
     },
     {
         name: "Application Form",

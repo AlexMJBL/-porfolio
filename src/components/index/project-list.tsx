@@ -1,6 +1,5 @@
 import ProjectCard from "./project-card"
 import movieDb from "../../asset/images/moviedb.png"
-import appForm from  "../../asset/images/app-form.png"
 import weatherGraph from "../../asset/images/weather__graph.png"
 import design from "../../asset/images/mjbl_solutiuons.png"
 

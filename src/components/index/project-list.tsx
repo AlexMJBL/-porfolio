@@ -2,8 +2,16 @@ import ProjectCard from "./project-card"
 import movieDb from "../../asset/images/moviedb.png"
 import appForm from  "../../asset/images/app-form.png"
 import weatherGraph from "../../asset/images/weather__graph.png"
+import design from "../../asset/images/mjbl_solutiuons.png"
 
 const projects = [
+    {
+    name: "MJBL Solutions",
+    demoLink: "https://mjbl-3d.netlify.app/",
+    codeLink: "https://github.com/AlexMJBL/3d_design",
+    description: "3D Design & Printing",
+    screenshotLink: design
+  },
     {
         name: "The Movie Library",
         demoLink: "https://themovielibrarymjbl.netlify.app/",
@@ -17,15 +25,7 @@ const projects = [
         codeLink: "https://github.com/AlexMJBL/weather-graph",
         description: "Weather consulation chart",
         screenshotLink: weatherGraph
-    },
-    {
-        name: "Application Form",
-        demoLink: "https://application-formmjbl.netlify.app/",
-        codeLink: "https://github.com/AlexMJBL/react-application-form",
-        description: "React Applicaiton Form",
-        screenshotLink: appForm
     }
-    
 ]
 export default function ProjectList() {
   return (

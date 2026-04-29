@@ -16,14 +16,14 @@ const projects = [
     {
       name: "ML Learning",
       demoLink: "https://imageclassifierml.netlify.app/",
-      codeLink: "https://github.com/AlexMJBL",
+      codeLink: "https://github.com/AlexMJBL/Model_Training",
       description: "Image Classification Machine Learning",
       screenshotLink: mlLearning
     },
     {
       name: "Gouttiere Medic",
       demoLink: "https://gouttieremedic.netlify.app/",
-      codeLink: "https://github.com/AlexMJBL",
+      codeLink: "https://github.com/AlexMJBL/gutters-website",
       description: "Business Website",
       screenshotLink: gutterMedic
     },
@@ -49,9 +49,14 @@ export default function ProjectList() {
         My Projects
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {projects.map((p, i) => (
-          <ProjectCard key={i} project={p} />
+          <div 
+            key={i} 
+            className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333333%-1.333333rem)]"
+          >
+            <ProjectCard project={p} />
+          </div>
         ))}
       </div>
     </div>

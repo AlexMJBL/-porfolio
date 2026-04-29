@@ -1,29 +1,45 @@
 import ProjectCard from "./project-card"
 import movieDb from "../../asset/images/moviedb.png"
-import weatherGraph from "../../asset/images/weather__graph.png"
+import weatherGraph from "../../asset/images/weather_graph.png"
 import design from "../../asset/images/mjbl_solutions.png"
+import mlLearning from "../../asset/images/ml_learning.png"
+import gutterMedic from "../../asset/images/GouttiereMedic.png"
 
 const projects = [
     {
-    name: "MJBL Solutions",
-    demoLink: "https://mjbl-3d.netlify.app/",
-    codeLink: "https://github.com/AlexMJBL/3d_design",
-    description: "3D Design & Printing",
-    screenshotLink: design
-  },
-    {
-        name: "The Movie Library",
-        demoLink: "https://themovielibrarymjbl.netlify.app/",
-        codeLink: "https://github.com/AlexMJBL/Movie-Library",
-        description: "Movie search engine",
-        screenshotLink: movieDb
+      name: "MJBL Solutions",
+      demoLink: "https://mjbl-3d.netlify.app/",
+      codeLink: "https://github.com/AlexMJBL/3d_design",
+      description: "3D Design & Printing",
+      screenshotLink: design
     },
     {
-        name: "Weather Forecast",
-        demoLink: "https://weather-graph-mjbl.netlify.app/",
-        codeLink: "https://github.com/AlexMJBL/weather-graph",
-        description: "Weather consulation chart",
-        screenshotLink: weatherGraph
+      name: "ML Learning",
+      demoLink: "https://imageclassifierml.netlify.app/",
+      codeLink: "https://github.com/AlexMJBL",
+      description: "Image Classification Machine Learning",
+      screenshotLink: mlLearning
+    },
+    {
+      name: "Gouttiere Medic",
+      demoLink: "https://gouttieremedic.netlify.app/",
+      codeLink: "https://github.com/AlexMJBL",
+      description: "Business Website",
+      screenshotLink: gutterMedic
+    },
+    {
+      name: "Weather Forecast",
+      demoLink: "https://weather-graph-mjbl.netlify.app/",
+      codeLink: "https://github.com/AlexMJBL/weather-graph",
+      description: "Weather consultation chart",
+      screenshotLink: weatherGraph
+    },
+    {
+      name: "The Movie Library",
+      demoLink: "https://themovielibrarymjbl.netlify.app/",
+      codeLink: "https://github.com/AlexMJBL/Movie-Library",
+      description: "Movie search engine",
+      screenshotLink: movieDb
     }
 ]
 export default function ProjectList() {

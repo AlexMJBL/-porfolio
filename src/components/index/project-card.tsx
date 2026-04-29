@@ -15,7 +15,10 @@ type Props = {
 
 export default function ProjectCard({ project }: Props) {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+    <div 
+      onClick={() => window.open(project.demoLink, '_blank')}
+      className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 cursor-pointer"
+    >
 
       {/* Image */}
       <div className="h-48 overflow-hidden">
@@ -36,6 +39,7 @@ export default function ProjectCard({ project }: Props) {
             <a
               href={project.codeLink}
               target="_blank"
+              onClick={(e) => e.stopPropagation()}
               className="hover:text-gray-600 transition"
             >
               <FaGithub />
@@ -44,6 +48,7 @@ export default function ProjectCard({ project }: Props) {
             <a
               href={project.demoLink}
               target="_blank"
+              onClick={(e) => e.stopPropagation()}
               className="hover:text-gray-600 transition"
             >
               <FiExternalLink />
